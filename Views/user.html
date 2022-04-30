@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>{title}</title>
+
+</head>
+
+<body>
+<label for="name">{lable_name}</label>
+<form action="/user" enctype="multipart/form-data" method="post">
+    <input type="text" id='name' name="name" value="">
+
+    <input type="submit" id='script' name="Send name" value="Send" onclick="exec('python user.py');">
+</form>
+</body>
+</html>
